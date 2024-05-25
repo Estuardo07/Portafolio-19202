@@ -1,0 +1,88 @@
+.Botones{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    gap: 25px;
+  }
+  
+  
+  
+  
+  
+  button {
+   
+    background-color: rgb(255, 255, 255);
+    width: 160px;
+    height: 50px;
+      font-size: 18px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-weight: bold;
+      /* padding: 0.7em 2em; */
+      border: 2px solid rgb(0, 161, 193);
+      border-radius: 5px;
+      position: relative;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+      color: rgb(0, 161, 193);
+      text-decoration: none;
+      transition: 0.3s ease all;
+      z-index: 1;
+    }
+    
+    button:before {
+     
+      transition: 0.3s all ease;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      right: 50%;
+      bottom: 0;
+      opacity: 0;
+      content: '';
+      background-color: rgb(0, 161, 193);
+      z-index: -1;
+    }
+    
+    button:hover, button:focus {
+      color: white;
+    }
+    
+    button:hover:before, button:focus:before {
+      transition: 0.5s all ease;
+      left: 0;
+      right: 0;
+      opacity: 1;
+    }
+    
+    button:active {
+      transform: scale(0.9);
+    }
+  
+   .a{
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+   }
+  
+   @media (max-width: 800px){
+    .Botones{
+      padding: 0;
+      display: flex;
+      flex-direction: initial;
+      justify-content: center;
+      margin-top: 15px;
+    }
+    .Botones button{
+      width: 125px;
+      height: 47px;
+    }
+   }

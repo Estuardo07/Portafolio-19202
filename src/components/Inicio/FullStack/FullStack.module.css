@@ -1,0 +1,132 @@
+.FullStack{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .span{
+      font-size: 47px;
+      font-weight: 700;
+  }
+  .span_mobile{
+    display: none;
+  }
+  
+  p{
+   font-size: 1.2rem;
+   font-weight: 500;
+   
+  }
+
+  /* .card {
+    position: relative;
+    background-color: #b8bbca;
+    padding: 1em;
+    z-index: 5;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    max-width: 300px;
+    transition: 200ms ease-in-out;
+  } */
+  
+  .username {
+    color: rgb(0, 161, 193);
+    font-size: 0.85em;
+    font-weight: 600;
+  }
+  
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .body .text {
+    font-size: 1.1rem;
+    white-space: pre-line;
+    color:  #000000;
+    font-weight: 600;
+    line-height: 1.7;
+    margin-bottom: 4px;
+  }
+  
+  .footer {
+    position: relative;
+    width: 100%;
+    color: #0f488e;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .footer div {
+    margin-right: 1rem;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .footer svg {
+    margin-right: 5px;
+    height: 100%;
+    stroke: rgb(132, 11, 11);
+    filter: invert(100%) sepia(0%) saturate(27%) hue-rotate(96deg) brightness(108%) contrast(100%);
+  }
+  
+  .viewer span {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(0, 161, 193);
+    margin-right: -6px;
+    border-radius: 50%;
+    border: 1px solid #070707;
+    display: grid;
+    display: none;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 8px;
+    color: #fff;
+    padding: 2px;
+  }
+  
+  .viewer span svg {
+    stroke: #fff;
+   
+  }
+  
+  
+  @media (max-width: 800px){
+    .span{
+      display: none;
+    }
+  
+    .FullStack{
+      gap: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding:2vh 0 0 0 ;
+    }
+  
+    .span_mobile{
+      display: inline-block;
+      font-size: 38px;
+      font-weight: 700;
+    }
+  
+    .body .text{
+      margin: 0 ; 
+    white-space: normal;
+    color:  #f5f5dc;
+    font-weight: 900;
+    line-height: 1.5;
+    margin-bottom: 4px;
+    }
+  }
+  
