@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #f5f5dc;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+  font-family: math ;
+}
+
+body::-webkit-scrollbar{
+  width: 0;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(2, 0, 13);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+  background-color: rgb(2, 0, 13);
+}
+
+h1, h2 ,h3,h5, p, span {
+cursor: default;
+}
+
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 200ms ease-in-out;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
