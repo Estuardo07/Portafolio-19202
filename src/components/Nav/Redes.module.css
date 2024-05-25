@@ -1,0 +1,31 @@
+.Redes{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    /* border-left: 2px solid #f5f5dc; */
+    cursor: pointer;
+  } 
+  
+  .Redes a{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  
+  .Redes a img:hover{
+    transform: translateY(-12%);
+    filter: invert(61%) sepia(55%) saturate(3257%) hue-rotate(98deg) brightness(94%) contrast(97%);
+    transition: all .2s ease-in-out;
+  }
+  
+  .Redes a img{
+    transition: transform 0.2s ease-in-out;
+    width: 21px;
+    filter: invert(94%) sepia(8%) saturate(746%) hue-rotate(345deg) brightness(108%) contrast(92%);
+  }
+  
+  .dark{
+    background-color: rgb(0, 0, 0);
+  }
