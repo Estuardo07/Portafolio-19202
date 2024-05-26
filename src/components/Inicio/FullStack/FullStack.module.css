@@ -45,7 +45,7 @@
   .body .text {
     font-size: 1.1rem;
     white-space: pre-line;
-    color:  #000000;
+    color:  #ffffff;
     font-weight: 600;
     line-height: 1.7;
     margin-bottom: 4px;
@@ -96,7 +96,7 @@
   }
   
   .viewer span svg {
-    stroke: #fff;
+    stroke: #000000;
    
   }
   
@@ -123,7 +123,7 @@
     .body .text{
       margin: 0 ; 
     white-space: normal;
-    color:  #f5f5dc;
+    color:  #ffffff;
     font-weight: 900;
     line-height: 1.5;
     margin-bottom: 4px;

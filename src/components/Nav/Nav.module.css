@@ -1,7 +1,7 @@
 .header{
     position: sticky;
     top: 0;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     position: sticky;
     top: 0;
     width: 85%;
@@ -24,7 +24,7 @@ a{
     justify-content: flex-end;
     gap: 30px;
     padding: 0 30px;
-    border-right: 2px solid wheat;
+    border-right: 2px solid rgb(0, 161, 193);
     
 }
 
@@ -71,7 +71,7 @@ span{
 
     .nav_mobile{
         z-index: 99;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
         position: absolute;
         position: fixed;
         bottom: 0;

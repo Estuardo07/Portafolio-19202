@@ -16,7 +16,7 @@
   
   .Redes a img:hover{
     transform: translateY(-12%);
-    filter: invert(61%) sepia(55%) saturate(3257%) hue-rotate(98deg) brightness(94%) contrast(97%);
+    filter: invert(61%) sepia(20%) saturate(1000%) hue-rotate(170deg) brightness(95%) contrast(110%);
     transition: all .2s ease-in-out;
   }
   
