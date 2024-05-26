@@ -32,7 +32,7 @@
       align-items: center;
       width: 300px;
       height: 380px;
-      border: 2px solid rgb(1, 52, 18);
+      border: 2px solid rgb(0, 161, 193);
       border-radius:10px ;
       transition: transform 0.3s ease-in-out;
      
@@ -92,7 +92,7 @@
   }
   
   .btns img:hover{
-      filter: invert(52%) sepia(87%) saturate(1542%) hue-rotate(99deg) brightness(95%) contrast(97%);
+      filter: invert(61%) sepia(20%) saturate(1000%) hue-rotate(170deg) brightness(95%) contrast(110%);
       transition: all .2s ease-in-out;
   }
   h3{
@@ -109,7 +109,7 @@
       padding: 0 10px;
   
       height: 80px;
-      color: #000000;
+      color: #ffffff;
   }
   
   .servicios{
@@ -175,7 +175,7 @@
   .metodo div{
     width: 200px;
     height: 200px;
-    border: 2px solid  rgb(3, 79, 41);
+    border: 2px solid  rgb(0, 161, 193);
     border-radius: 10px;
     padding: 10px 10px;
     display: flex;
