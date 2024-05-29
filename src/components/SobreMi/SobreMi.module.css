@@ -29,7 +29,7 @@ article{
 .img img{
   z-index: 99;
   width: 240px;
-  height: 240px;
+  height: 290px;
   border-radius: 50%;
   border: 2px solid rgb(0, 161, 193);
 }
@@ -54,7 +54,7 @@ h1{
   .body .text {
     font-size: 1.1rem;
     white-space: pre-line;
-    color:  #000000;
+    color:  #ffffff;
     font-weight: 600;
     line-height: 1.7;
     margin-bottom: 4px;
