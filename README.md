@@ -1,9 +1,19 @@
 # Proyecto Final: Portafolio
-## React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio web personal.
 
-Currently, two official plugins are available:
+## Instalación
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clona el repositorio: `git clone https://github.com/Estuardo07/Portafolio-19202.git`
+2. Instala las dependencias: `npm install`
+
+## Uso
+
+1. Ejecuta la aplicación: `npm run dev`
+2. Abre tu navegador y visita: `http://localhost:5173/portafolio/`
+
+## Contacto
+
+Javier Hernández - [jestuardo@outlook.com](mailto:jestuardo@outlook.com)
+
+Proyecto: [https://github.com/Estuardo07/Portafolio-19202.git](https://github.com/Estuardo07/Portafolio-19202.git)
