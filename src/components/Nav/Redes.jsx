@@ -7,16 +7,16 @@ const Redes = () => {
     <div className={styles.Redes}>
       <a
         target="_blank"
-        href="https://www.linkedin.com"
+        href="https://www.linkedin.com/in/javier-estuardo-hernández"
       >
         <img src={linkedin} alt="logo de linkedin" />
       </a>
 
-      <a target="_blank" href="https://github.com">
+      <a target="_blank" href="https://github.com/Estuardo07">
         <img src={github} alt="logo de github" />
       </a>
 
-      <a target="_blank" href="https://www.instagram.com">
+      <a target="_blank" href="https://www.instagram.com/jestuardo_ht?igsh=MTBxcDU4c3M2MXU3cg==">
         <img src={instagram} alt="logo de instagram" />
       </a>
     </div>
